@@ -7,19 +7,19 @@ import Progress from "@/components/Progress";
 
 export default function AboutPage() {
   const technologies = [
-    "AWS", "EC2", "S3", "Lambda", "Docker", "Kubernetes", "CI/CD",
-    "React", "Next.js", "Node.js", "TypeScript", "Git", "Python",
-    "FastAPI", "TensorFlow", "Redis", "MongoDB"
+    "AWS", "Docker", "Kubernetes", "CI/CD",
+    "React", "Java", "Node.js", "TypeScript", "Git", "Python",
+    "FastAPI", "Next.js", "Redis", "MongoDB", "HTML", "CSS", "Machine Learning",
   ];
 
   const skills = [
-    { label: "React", value: 85 },
-    { label: "Next.js", value: 80 },
+    { label: "React", value: 80 },
+    { label: "Java", value: 85 },
     { label: "Docker", value: 85 },
     { label: "Kubernetes", value: 75 },
-    { label: "JavaScript/TypeScript", value: 85 },
+    { label: "JavaScript/TypeScript", value: 70 },
     { label: "Python", value: 80 },
-    { label: "AWS", value: 75 },
+    { label: "AWS", value: 85 },
     { label: "Machine Learning", value: 70 },
   ];
 
@@ -34,9 +34,7 @@ export default function AboutPage() {
             transition={{ duration: 0.6 }}
           >
             <p className="text-gray-700 leading-relaxed mb-6">
-              I'm a pre-final year CSE(Hons) student and a builder at heart. My toolkit spans
-              React/Next.js on the front, FastAPI/Node on the back, and CI/CD on top.
-              On the ML side, I prototype in Python and ship with C++/LibTorch when needed.
+              I'm a final year CSE student at UPES Dehradun, specializing in Cloud & Virtualisation. Skilled in AI-powered applications and scalable cloud systems
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-6">
@@ -49,10 +47,10 @@ export default function AboutPage() {
             <div className="space-y-4">
               <div className="border-l-2 border-gray-200 pl-4">
                 <h4 className="font-medium">Current</h4>
-                <p className="text-sm text-gray-600">CSE(Hons) Student, Building Portfolio Projects</p>
+                <p className="text-sm text-gray-600">CSE Student, Building Projects on Augmented Reality</p>
               </div>
               <div className="border-l-2 border-gray-200 pl-4">
-                <h4 className="font-medium">2023</h4>
+                <h4 className="font-medium">2024-2025</h4>
                 <p className="text-sm text-gray-600">Deep dive into ML and DevOps practices</p>
               </div>
               <div className="border-l-2 border-gray-200 pl-4">
@@ -108,8 +106,8 @@ export default function AboutPage() {
           <div className="border rounded-2xl p-6">
             <h3 className="font-semibold text-lg mb-3">Currently Exploring</h3>
             <ul className="space-y-2 text-gray-700">
-              <li>• Advanced Kubernetes orchestration</li>
-              <li>• GraphQL with Apollo</li>
+              <li>• System Designs</li>
+              <li>• Go Lang</li>
               <li>• Microservices architecture patterns</li>
               <li>• Advanced ML model deployment</li>
             </ul>
@@ -118,10 +116,9 @@ export default function AboutPage() {
           <div className="border rounded-2xl p-6">
             <h3 className="font-semibold text-lg mb-3">Next on the List</h3>
             <ul className="space-y-2 text-gray-700">
-              <li>• Rust programming language</li>
-              <li>• WebAssembly applications</li>
-              <li>• Advanced DevSecOps practices</li>
-              <li>• Blockchain development</li>
+              <li>• Agentic Ai</li>
+              <li>• RAG-Models</li>
+              <li>• DevSecOps practices</li>
             </ul>
           </div>
         </motion.div>

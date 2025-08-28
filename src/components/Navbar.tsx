@@ -47,7 +47,7 @@ export default function Navbar() {
             Email
           </a>
           <a
-            href="https://www.linkedin.com/in/kartik-malik-a69391284/"
+            href="https://www.linkedin.com/in/kartik-malik-s/"
             target="_blank"
             rel="noreferrer"
             className="text-sm underline hover:opacity-70 transition-opacity"

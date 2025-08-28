@@ -113,7 +113,7 @@ export default function ContactPage() {
             <div className="border rounded-2xl p-6 bg-gray-50">
               <h4 className="font-semibold mb-3">What I'm Looking For</h4>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>• Full-stack development internships</li>
+                <li>• Full-stack development/Software Devlopment internships</li>
                 <li>• Machine learning project collaborations</li>
                 <li>• DevOps and cloud infrastructure projects</li>
                 <li>• Open source contributions</li>

@@ -76,6 +76,10 @@ export default function Portfolio() {
             <p className="mt-4 text-lg md:text-xl text-gray-700">
               Full Stack Developer • ML Enthusiast • DevOps Explorer
             </p>
+            <a href="/Kartik_Malik_Resume.pdf" target="_blank" className="rounded-2xl px-4 py-2 border text-sm font-medium">
+  Resume
+</a>
+
             <p className="mt-4 text-gray-600 max-w-prose">
               I build practical, scalable apps with React, FastAPI, and cloud-native tooling.
               Curious mind, constant learner — always exploring, always shipping.
@@ -105,9 +109,7 @@ export default function Portfolio() {
       <Section id="about" title="About Me">
         <div className="grid md:grid-cols-2 gap-8">
           <p className="text-gray-700 leading-relaxed">
-            I'm a pre-final year CSE(Hons) student and a builder at heart. My toolkit spans
-            React/Next.js on the front, FastAPI/Node on the back, and CI/CD on top.
-            On the ML side, I prototype in Python and ship with C++/LibTorch when needed.
+            I'm a final year CSE student at UPES Dehradun, specializing in Cloud & Virtualisation. Skilled in AI-powered applications and scalable cloud systems.
           </p>
           <div>
             <h3 className="font-semibold mb-3">Skills (self-rated)</h3>

@@ -17,29 +17,29 @@ interface Project {
 export default function ProjectsPage() {
   const projects: Project[] = [
     {
-      name: "Species Recognition System",
+      name: "AI Species Recognition System",
       description: "Automated endangered species detection using computer vision",
       longDescription: "A comprehensive ML solution for wildlife conservation that uses CNNs to identify endangered species from camera trap images. Includes data preprocessing, model training, and a web interface for real-time predictions.",
       stack: ["Python", "TensorFlow", "OpenCV", "Flask", "Docker"],
-      href: "https://github.com/KartikMalik07",
+      href: "https://ai-species.netlify.app/",
       featured: true,
       status: "completed"
     },
     {
-      name: "HealthMate – Healthcare Chatbot",
+      name: "Elephant Identification System (WII Internship)",
       description: "Rural-first assistant for basic medical triage and guidance",
       longDescription: "An AI-powered healthcare assistant designed for rural communities with limited medical access. Features symptom analysis, basic triage, and integration with local healthcare providers.",
-      stack: ["Node.js", "Firebase", "Google Vision AI", "React", "Express"],
-      href: "https://github.com/KartikMalik07",
+      stack: ["Node.js", "Siamese Neural Network", "YOLOV8", "Python", "Electron"],
+      href: "https://elephantidsystems.streamlit.app/",
       featured: true,
       status: "completed"
     },
     {
-      name: "Microservices Bakery System",
+      name: "BakeryManagement System",
       description: "Scalable inventory and order management system",
       longDescription: "A complete microservices architecture for a bakery chain, handling inventory management, order processing, and customer management with message queues and caching.",
       stack: ["FastAPI", "RabbitMQ", "Redis", "PostgreSQL", "React", "Docker"],
-      href: "https://github.com/KartikMalik07",
+      href: "https://github.com/KartikMalik07/Bakery-management",
       featured: true,
       status: "completed"
     },
