@@ -1,103 +1,154 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import { motion } from "framer-motion";
+import Link from "next/link";
+import Chip from "@/components/Chip";
+
+export default function HomePage() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <>
+      {/* Hero Section */}
+      <section className="max-w-6xl mx-auto px-4 py-24 sm:py-28 md:py-32">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <motion.h1
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.45 }}
+              className="text-4xl md:text-5xl font-extrabold tracking-tight"
+            >
+              Hi, I'm Kartik Malik
+            </motion.h1>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            <motion.p
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.45, delay: 0.1 }}
+              className="mt-4 text-lg md:text-xl text-gray-700"
+            >
+              Full Stack Developer • ML Enthusiast • DevOps Explorer
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.45, delay: 0.2 }}
+              className="mt-4 text-gray-600 max-w-prose"
+            >
+              I build practical, scalable apps with React, FastAPI, and cloud-native tooling.
+              Curious mind, constant learner — always exploring, always shipping.
+            </motion.p>
+
+            <motion.div
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.45, delay: 0.3 }}
+              className="mt-6 flex gap-3"
+            >
+              <Link href="/projects" className="btn-primary">
+                View Projects
+              </Link>
+              <Link href="/contact" className="btn-primary">
+                Contact Me
+              </Link>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.45, delay: 0.4 }}
+              className="mt-6 flex flex-wrap"
+            >
+              <Chip label="React" />
+              <Chip label="Next.js" />
+              <Chip label="FastAPI" />
+              <Chip label="Docker" />
+              <Chip label="Kubernetes" />
+              <Chip label="AWS" />
+            </motion.div>
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="justify-self-center"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+            <div className="w-40 h-40 md:w-56 md:h-56 rounded-3xl border shadow-sm grid place-content-center bg-gradient-to-br from-gray-50 to-gray-100">
+              <span className="text-4xl md:text-5xl font-black text-gray-800">KM</span>
+            </div>
+          </motion.div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+      </section>
+
+      {/* Quick Stats/Highlights */}
+      <section className="max-w-6xl mx-auto px-4 py-16 border-t">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="grid md:grid-cols-3 gap-8 text-center"
         >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+          <div>
+            <h3 className="text-2xl font-bold text-gray-900">15+</h3>
+            <p className="text-sm text-gray-600 mt-1">Projects Built</p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-bold text-gray-900">3+</h3>
+            <p className="text-sm text-gray-600 mt-1">Years Experience</p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-bold text-gray-900">8+</h3>
+            <p className="text-sm text-gray-600 mt-1">Technologies</p>
+          </div>
+        </motion.div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="max-w-6xl mx-auto px-4 py-16">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-center"
         >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">
+            Ready to build something amazing?
+          </h2>
+          <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+            I'm always interested in hearing about new opportunities and exciting projects.
+            Let's connect and see how we can work together.
+          </p>
+          <div className="flex gap-4 justify-center">
+            <Link href="/contact" className="btn-primary">
+              Get In Touch
+            </Link>
+            <a
+              href="https://github.com/KartikMalik07"
+              target="_blank"
+              rel="noreferrer"
+              className="btn-primary"
+            >
+              View GitHub
+            </a>
+          </div>
+        </motion.div>
+      </section>
+
+      {/* Footer */}
+      <footer className="border-t">
+        <div className="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-2 items-center gap-4">
+          <div>
+            <p className="font-semibold">Kartik Malik</p>
+            <p className="text-sm text-gray-600">Full Stack Developer • ML</p>
+          </div>
+          <p className="text-sm text-gray-500 md:text-right">
+            © {new Date().getFullYear()} Kartik Malik. All rights reserved.
+          </p>
+        </div>
       </footer>
-    </div>
+    </>
   );
 }
