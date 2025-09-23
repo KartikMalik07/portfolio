@@ -80,12 +80,12 @@ export default function ContactPage() {
                 <div>
                   <p className="font-medium">LinkedIn</p>
                   <a
-                    href="https://www.linkedin.com/in/kartik-malik-a69391284/"
+                    href="https://www.linkedin.com/in/kartik-malik-s/"
                     target="_blank"
                     rel="noreferrer"
                     className="text-blue-600 hover:text-blue-800 transition-colors"
                   >
-                    /in/kartik-malik-a69391284
+                    /in/kartik-malik-s
                   </a>
                 </div>
               </div>
@@ -114,6 +114,7 @@ export default function ContactPage() {
               <h4 className="font-semibold mb-3">What I'm Looking For</h4>
               <ul className="space-y-2 text-sm text-gray-700">
                 <li>• Full-stack development/Software Devlopment internships</li>
+                <li>• Full Time Job roles</li>
                 <li>• Machine learning project collaborations</li>
                 <li>• DevOps and cloud infrastructure projects</li>
                 <li>• Open source contributions</li>

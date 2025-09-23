@@ -95,8 +95,8 @@ export default function HomePage() {
             <p className="text-sm text-gray-600 mt-1">Projects Built</p>
           </div>
           <div>
-            <h3 className="text-2xl font-bold text-gray-900"></h3>
-            <p className="text-sm text-gray-600 mt-1">Years Experience</p>
+            <h3 className="text-2xl font-bold text-gray-900">3+</h3>
+            <p className="text-sm text-gray-600 mt-1">Years of Hands-on Projects</p>
           </div>
           <div>
             <h3 className="text-2xl font-bold text-gray-900">8+</h3>

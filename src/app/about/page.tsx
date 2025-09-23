@@ -133,9 +133,9 @@ export default function AboutPage() {
           className="prose prose-lg max-w-none"
         >
           <p className="text-gray-700 leading-relaxed">
-            When I'm not coding, you'll find me reading about emerging technologies, contributing to
-            open-source projects, or experimenting with new frameworks. I believe in continuous learning
-            and sharing knowledge with the developer community.
+When I’m not buried in a project, I’m usually at the gym working on strength and mind-muscle connection, or outside recharging in nature. I enjoy experimenting—whether it’s with workouts, photography, or making creative reels that mix humor with aesthetics.
+
+I’ve got a curious streak, so I read widely, not just about tech but also about people, psychology, and ideas that stretch how we see the world. For me, it’s about balance: building things with my mind, but also challenging and grounding myself in the real world.
           </p>
 
           <p className="text-gray-700 leading-relaxed mt-4">

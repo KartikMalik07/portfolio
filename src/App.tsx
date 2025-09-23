@@ -87,6 +87,7 @@ export default function Portfolio() {
             <div className="mt-6 flex gap-3">
               <a href="#projects" className="rounded-2xl px-4 py-2 border text-sm font-medium">View Projects</a>
               <a href="#contact" className="rounded-2xl px-4 py-2 border text-sm font-medium">Contact Me</a>
+               <a href="/Kartik_Malik_Resume.pdf" target="_blank" className="rounded-2xl px-4 py-2 border text-sm font-medium">Resume</a>
             </div>
             <div className="mt-6 flex flex-wrap">
               <Chip label="React" />
@@ -167,7 +168,7 @@ export default function Portfolio() {
         <div className="grid md:grid-cols-2 gap-8 items-start">
           <div>
             <p className="text-gray-700 max-w-prose">
-              I'm open to internships and collaboration on full‑stack + ML hybrids.
+              I'm open to internships/full time opportunities and collaboration on full‑stack + ML hybrids.
               Drop a message — I read everything.
             </p>
             <div className="mt-4 space-y-2 text-sm">

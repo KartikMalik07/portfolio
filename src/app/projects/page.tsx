@@ -44,29 +44,14 @@ export default function ProjectsPage() {
       status: "completed"
     },
     {
-      name: "Cloud Infrastructure Automation",
-      description: "Infrastructure as Code with Terraform and AWS",
-      longDescription: "Automated deployment pipeline for cloud infrastructure using Terraform, including VPC setup, ECS clusters, and monitoring with CloudWatch.",
-      stack: ["Terraform", "AWS", "Docker", "GitHub Actions", "Monitoring"],
-      href: "https://github.com/KartikMalik07",
-      status: "completed"
-    },
-    {
-      name: "Real-time Chat Application",
-      description: "Scalable chat platform with WebSocket support",
-      longDescription: "A modern chat application with real-time messaging, file sharing, and group management. Built with Socket.io for real-time communication.",
-      stack: ["React", "Node.js", "Socket.io", "MongoDB", "Redux"],
-      href: "https://github.com/KartikMalik07",
-      status: "completed"
-    },
-    {
-      name: "ML Model Deployment Pipeline",
-      description: "Automated ML model training and deployment system",
-      longDescription: "End-to-end pipeline for machine learning model development, from data preprocessing to model deployment with A/B testing capabilities.",
-      stack: ["Python", "MLflow", "Kubernetes", "Flask", "PostgreSQL"],
+      name: "LLM Langchain Chatbot",
+      description: "Conversational AI assistant built with LangChain and LLMs",
+      longDescription: "Developed a chatbot using LangChain for orchestrating LLM interactions, integrated with a vector database for context-aware responses, and deployed through FastAPI.",
+      stack: ["Python", "LangChain", "OpenAI API", "FastAPI", "ChromaDB"],
       href: "https://github.com/KartikMalik07",
       status: "in-progress"
     }
+
   ];
 
   const containerVariants = {
