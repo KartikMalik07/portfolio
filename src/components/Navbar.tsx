@@ -56,7 +56,7 @@ export default function Navbar() {
           </a>
           {/* Resume Download Button */}
           <a
-            href="/Kartik_Resume.pdf"
+            href="/Kartik_Malik_Resume.pdf"
             download="Kartik_Malik_Resume.pdf"
             className="px-3 py-1.5 bg-gray-900 text-white text-sm font-medium rounded-md hover:bg-gray-800 transition-colors"
           >
