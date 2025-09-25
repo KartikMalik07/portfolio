@@ -74,8 +74,12 @@ export default function HomePage() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="justify-self-center"
           >
-            <div className="w-40 h-40 md:w-56 md:h-56 rounded-3xl border shadow-sm grid place-content-center bg-gradient-to-br from-gray-50 to-gray-100">
-              <span className="text-4xl md:text-5xl font-black text-gray-800">KM</span>
+            <div className="w-40 h-40 md:w-56 md:h-56 rounded-3xl border shadow-sm overflow-hidden">
+              <img
+                src="/Gemini_Generated_Image_736r90736r90736r.png"
+                alt="Kartik Malik"
+                className="rounded-3xl object-cover w-full h-full"
+              />
             </div>
           </motion.div>
         </div>

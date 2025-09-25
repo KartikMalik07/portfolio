@@ -54,6 +54,14 @@ export default function Navbar() {
           >
             LinkedIn
           </a>
+          {/* Resume Download Button */}
+          <a
+            href="/Kartik_Resume.pdf"
+            download="Kartik_Malik_Resume.pdf"
+            className="px-3 py-1.5 bg-gray-900 text-white text-sm font-medium rounded-md hover:bg-gray-800 transition-colors"
+          >
+            Resume
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -99,6 +107,15 @@ export default function Navbar() {
                   className="block text-sm underline"
                 >
                   LinkedIn
+                </a>
+                {/* Mobile Resume Download Button */}
+                <a
+                  href="/Kartik_Resume.pdf"
+                  download="Kartik_Malik_Resume.pdf"
+                  className="inline-block px-3 py-1.5 bg-gray-900 text-white text-sm font-medium rounded-md hover:bg-gray-800 transition-colors"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Resume
                 </a>
               </div>
             </div>
