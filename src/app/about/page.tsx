@@ -7,20 +7,18 @@ import Progress from "@/components/Progress";
 
 export default function AboutPage() {
   const technologies = [
-    "AWS", "Docker", "Kubernetes", "CI/CD",
-    "React", "Java", "Node.js", "TypeScript", "Git", "Python",
-    "FastAPI", "Next.js", "Redis", "MongoDB", "HTML", "CSS", "Machine Learning",
+    "AWS", "Docker", "CI/CD", "Git", "Azure Data Factory", "Databricks", "PySpark", "SQL", "Python", "Redis", "MongoDB",
   ];
 
   const skills = [
-    { label: "React", value: 80 },
-    { label: "Java", value: 85 },
+    { label: "SQL", value: 90 },
+    { label: "Databricks", value: 85 },
     { label: "Docker", value: 85 },
-    { label: "Kubernetes", value: 75 },
-    { label: "JavaScript/TypeScript", value: 70 },
-    { label: "Python", value: 80 },
-    { label: "AWS", value: 85 },
-    { label: "Machine Learning", value: 70 },
+    { label: "PySpark", value: 85 },
+    { label: "Azure Data Factory", value: 85 },
+    { label: "Python", value: 90 },
+    { label: "AWS", value: 80 },
+    { label: "Git", value: 80 },
   ];
 
   return (
@@ -34,20 +32,17 @@ export default function AboutPage() {
             transition={{ duration: 0.6 }}
           >
             <p className="text-gray-700 leading-relaxed mb-6">
-              I'm a final year CSE student at UPES Dehradun, specializing in Cloud & Virtualisation. Skilled in AI-powered applications and scalable cloud systems
-            </p>
+              I'm a Junior Data Engineer at Celebal Technologies and a final-year Computer Science student at UPES Dehradun, specializing in Cloud Computing and Virtualization.
 
-            <p className="text-gray-700 leading-relaxed mb-6">
-              What drives me is the intersection of practical software development and cutting-edge
-              machine learning. I believe in building solutions that not only work but scale and
-              adapt to real-world challenges.
+My work focuses on building scalable ETL pipelines, designing data workflows, and transforming raw data into reliable, business-ready insights using Databricks, PySpark, SQL, Azure Data Factory, and cloud technologies. I enjoy solving complex data challenges, optimizing data systems, and building solutions that scale efficiently in real-world environments.
+
             </p>
 
             <h3 className="text-xl font-semibold mb-4">My Journey</h3>
             <div className="space-y-4">
               <div className="border-l-2 border-gray-200 pl-4">
                 <h4 className="font-medium">Current</h4>
-                <p className="text-sm text-gray-600">CSE Student, Building Projects on Augmented Reality</p>
+                <p className="text-sm text-gray-600">Junior Data Engineer at Celebal Technologies Building scalable pipelines</p>
               </div>
               <div className="border-l-2 border-gray-200 pl-4">
                 <h4 className="font-medium">2024-2025</h4>

@@ -26,7 +26,7 @@ export default function HomePage() {
               transition={{ duration: 0.45, delay: 0.1 }}
               className="mt-4 text-lg md:text-xl text-gray-700"
             >
-              Full Stack Developer • ML Enthusiast • DevOps Explorer
+              Data Engineer
             </motion.p>
 
             <motion.p
@@ -35,8 +35,7 @@ export default function HomePage() {
               transition={{ duration: 0.45, delay: 0.2 }}
               className="mt-4 text-gray-600 max-w-prose"
             >
-              I build practical, scalable apps with React, FastAPI, and cloud-native tooling.
-              Curious mind, constant learner — always exploring, always shipping.
+            I design and build scalable data solutions using Databricks, PySpark, SQL, and cloud-native technologies. Constantly learning, optimizing, and turning complex data challenges into practical systems.
             </motion.p>
 
             <motion.div
@@ -59,12 +58,13 @@ export default function HomePage() {
               transition={{ duration: 0.45, delay: 0.4 }}
               className="mt-6 flex flex-wrap"
             >
-              <Chip label="React" />
-              <Chip label="Next.js" />
-              <Chip label="FastAPI" />
-              <Chip label="Docker" />
-              <Chip label="Kubernetes" />
+              <Chip label="Python" />
+              <Chip label="SQL" />
+              <Chip label="Databricks" />
+              <Chip label="PySpark" />
+              <Chip label="Azure Data Factory" />
               <Chip label="AWS" />
+              <Chip label="Git" />
             </motion.div>
           </div>
 
@@ -76,7 +76,7 @@ export default function HomePage() {
           >
             <div className="w-40 h-40 md:w-56 md:h-56 rounded-3xl border shadow-sm overflow-hidden">
               <img
-                src="/Gemini_Generated_Image_736r90736r90736r.png"
+                src="/Latest_photo.jpeg"
                 alt="Kartik Malik"
                 className="rounded-3xl object-cover w-full h-full"
               />
@@ -146,7 +146,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-2 items-center gap-4">
           <div>
             <p className="font-semibold">Kartik Malik</p>
-            <p className="text-sm text-gray-600">Full Stack Developer • ML</p>
+            <p className="text-sm text-gray-600">Data Engineer</p>
           </div>
           <p className="text-sm text-gray-500 md:text-right">
             © {new Date().getFullYear()} Kartik Malik. All rights reserved.

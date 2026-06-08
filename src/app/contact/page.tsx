@@ -113,12 +113,12 @@ export default function ContactPage() {
             <div className="border rounded-2xl p-6 bg-gray-50">
               <h4 className="font-semibold mb-3">What I'm Looking For</h4>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>• Full-stack development/Software Devlopment internships</li>
-                <li>• Full Time Job roles</li>
-                <li>• Machine learning project collaborations</li>
-                <li>• DevOps and cloud infrastructure projects</li>
-                <li>• Open source contributions</li>
-                <li>• Mentorship opportunities</li>
+                <li>• Data Engineering internships and full-time opportunities</li>
+                <li>• ETL pipeline and data platform projects</li>
+                <li>• Cloud and data infrastructure collaborations</li>
+                <li>• Backend engineering and distributed systems projects</li>
+                <li>• Open-source contributions in data and cloud ecosystems</li>
+                <li>• Mentorship and networking opportunities</li>
               </ul>
             </div>
           </motion.div>

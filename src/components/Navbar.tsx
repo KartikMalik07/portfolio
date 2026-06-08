@@ -56,8 +56,8 @@ export default function Navbar() {
           </a>
           {/* Resume Download Button */}
           <a
-            href="/Kartik_Malik_Resume.pdf"
-            download="Kartik_Malik_Resume.pdf"
+            href="/kartik_malik__resume.pdf"
+            download="kartik_malik__resume.pdf"
             className="px-3 py-1.5 bg-gray-900 text-white text-sm font-medium rounded-md hover:bg-gray-800 transition-colors"
           >
             Resume
@@ -110,8 +110,8 @@ export default function Navbar() {
                 </a>
                 {/* Mobile Resume Download Button */}
                 <a
-                  href="/Kartik_Resume.pdf"
-                  download="Kartik_Malik_Resume.pdf"
+                  href="/kartik_malik__resume.pdf"
+                  download="kartik_malik__resume.pdf"
                   className="inline-block px-3 py-1.5 bg-gray-900 text-white text-sm font-medium rounded-md hover:bg-gray-800 transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >

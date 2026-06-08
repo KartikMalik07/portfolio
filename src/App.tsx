@@ -76,7 +76,7 @@ export default function Portfolio() {
             <p className="mt-4 text-lg md:text-xl text-gray-700">
               Full Stack Developer • ML Enthusiast • DevOps Explorer
             </p>
-            <a href="/Kartik_Malik_Resume.pdf" target="_blank" className="rounded-2xl px-4 py-2 border text-sm font-medium">
+            <a href="/kartik_malik__resume.pdf" target="_blank" className="rounded-2xl px-4 py-2 border text-sm font-medium">
   Resume
 </a>
 
@@ -87,7 +87,7 @@ export default function Portfolio() {
             <div className="mt-6 flex gap-3">
               <a href="#projects" className="rounded-2xl px-4 py-2 border text-sm font-medium">View Projects</a>
               <a href="#contact" className="rounded-2xl px-4 py-2 border text-sm font-medium">Contact Me</a>
-               <a href="/Kartik_Malik_Resume.pdf" target="_blank" className="rounded-2xl px-4 py-2 border text-sm font-medium">Resume</a>
+               <a href="/kartik_malik__resume.pdf" target="_blank" className="rounded-2xl px-4 py-2 border text-sm font-medium">Resume</a>
             </div>
             <div className="mt-6 flex flex-wrap">
               <Chip label="React" />
